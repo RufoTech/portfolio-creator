@@ -1,0 +1,151 @@
+@import url('https://fonts.googleapis.com/css2?family=Montserrat:ital,wght@0,100..900;1,100..900&family=Open+Sans:ital,wght@0,300..800;1,300..800&family=Roboto:ital,wght@0,100;0,300;0,400;0,500;0,700;0,900;1,100;1,300;1,400;1,500;1,700;1,900&display=swap');
+.roboto-regular {
+    font-family: "Roboto", sans-serif;
+    font-weight: 400;
+    font-style: normal;
+  }
+  .roboto-bold {
+    font-family: "Roboto", sans-serif;
+    font-weight: 700;
+    font-style: normal;
+  }
+.nav-item a{
+    margin-right: 40px;
+}
+
+.intro-left-side h1{
+    font-size: 47px !important;
+}
+.intro-left-side{
+    padding-top: 60px;
+}
+.intro-left-side p{
+ color: #666666;
+
+}
+.design{
+    color: #FF8A56;
+}
+a{
+    text-decoration: none  !important;
+}
+.buttons .bookacallbtn  {
+    color: #fff;
+    background-color: black;
+    display: inline-flex;
+    width: 151px;
+    height: 58px;
+    justify-content: center;
+    align-items: center;
+}
+.buttons .downloadbtn{
+    color: #000;
+}
+.intro-right-side img{
+    padding-top: 40px;
+    width: 100%;
+}
+.partnyor img{
+    width: 250px;
+    margin-left: 40px;
+}
+.services-text{
+    letter-spacing:4px;
+   margin-top: 120px;
+
+}
+.service-cards .card img{
+    width: 70px !important;
+}
+.service-cards p{
+    color: #666666 !important;
+}
+.project-section{
+    padding-top: 80px;
+}
+
+.project-section h5{
+    color:  #B16CEA;
+    letter-spacing: 4px;
+    
+}
+
+.view-btn {
+    color: #fff;
+    background-color: black;
+    display: inline-flex;
+    width: 201px;
+    height: 58px;
+    justify-content: center;
+    align-items: center;
+}
+.card-body h6{
+    letter-spacing: 4px;
+    color: #3C46FF;
+}
+
+.workers-about h6{
+    color: #4353FF;
+}
+.workers-about .intro-right-side img{
+    justify-content: space-between !important;
+}
+  
+
+@media(min-width:320px) and (max-width:323px){
+    .intro-left-side h1{
+        font-size:38px !important;
+        
+       
+    }
+   .logo{
+        width: 200px !important;
+    }
+   .partnyor img{
+    width: 230px;
+    margin-left: 20px;
+   }
+}
+
+@media(min-width:768px) and (max-width:991px){
+    .intro-left-side h1{
+        font-size: 47px !important;
+    }
+    .intro-left-side p{
+    font-size: 24px;
+    }
+    .card p{
+        font-size: 22px;
+    }
+    .card h5{
+        font-size: 30px;
+        
+    }
+    .services-section .services-text {
+        font-size: 30px !important;
+    }
+    .melumat li{
+        font-size: 22px;
+    }
+   
+}
+
+@media(min-width:992px){
+    .intro-left-side h1{
+        font-size: 70px !important;
+    }
+    .intro-left-side{
+        padding-top: 130px;
+    }
+    .intro-left-side .downloadbtn {
+        margin-left: 20px;
+        
+    }
+    .intro-right-side img{
+        width: 550px;
+    }
+    .partnyor img{
+        width: 200px;
+    }
+   
+}
