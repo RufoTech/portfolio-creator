@@ -49,10 +49,18 @@ a{
     width: 250px;
     margin-left: 40px;
 }
+.h1-product{
+    font-size: 28px;
+}
 .services-text{
     letter-spacing:4px;
    margin-top: 120px;
-
+   color:  #FF5E69;
+   font-size: 22px;
+   
+}
+.kart p{
+    font-size: large;
 }
 .service-cards .card img{
     width: 70px !important;
@@ -70,6 +78,8 @@ a{
     
 }
 
+
+
 .view-btn {
     color: #fff;
     background-color: black;
@@ -84,13 +94,127 @@ a{
     color: #3C46FF;
 }
 
-.workers-about h6{
-    color: #4353FF;
+.portfolio-photos{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    margin: 20px;
 }
-.workers-about .intro-right-side img{
-    justify-content: space-between !important;
+.portfolio-images{
+    display: grid;
+    grid-template-columns: repeat(2,1fr);
+    gap: 10px;
 }
+
+.portfolio-image{
+    width: 100%;
+    height: auto;
+    border-radius: 5px;
+}
+
+.worker-right-side {
+    padding-top: 10px;
+}
+.worker-right-side h4 {
+    padding-top: 30px;
+}
+.worker-left-side img{
+    width: 100%;
+}
+
+.dark {
+    background-color: #000;
+    color: #fff;
+    padding: 120px 30px;
+  }
   
+  .dark a {
+  text-decoration: none;
+  color: #fff;
+  
+  }
+    
+  .blog {
+  border-bottom: 1px solid #ccc ;
+  }
+
+  .color-blog{
+    color: #FFA84B;
+    letter-spacing: 4px;
+    
+  }
+  .prevbtn-button{
+    background-color: #fff !important;
+   width: 54px;
+   height: 54px;
+   margin-right: 10px;
+   
+  }
+  .afterbtn-button{
+    background-color: #fff !important;
+    width: 54px;
+    height: 54px;
+    
+    
+  }
+  .naviqasiya-butonlar{
+    padding-top: 45px !important;
+   
+  }
+  .dark{
+    margin-top: -172px;
+  }
+  
+  .mobile-menu{
+    position: fixed !important;
+    background-color: #222 !important;
+    width: 0 !important;
+    height: 100vh !important;
+    opacity: .9 !important;
+    z-index: 99999 !important;
+    overflow-x: hidden;
+    transition: 1.4s ease !important;
+
+}
+.mobile-navbar{
+    display: flex !important;
+    flex-direction: column !important;
+    align-items: center !important;
+    justify-content: center !important;
+    height: 100vh !important;
+}
+
+.mobile-navbar a{
+    text-decoration: none !important;
+    font-size: 33px;
+    min-width: 160px !important;
+}
+.mobile-menu .mobile-navbar a:hover{
+transform: translateX(30px) !important;
+transition: 1.4s ease !important;
+}
+.fa-xmark{
+    color: #fff !important;
+    position: absolute;
+    right: 40px;
+    top: 40px;
+    font-size: 40px;
+}
+.aktiv{
+    width: 100% !important;
+   }
+  .evvel-duyme{
+ background-color: #000;
+ width: 40px;
+ height: 40px;
+ margin-right: 5px;
+  }
+  .next-duyme{
+    background-color: #000;
+    width: 40px;
+    height: 40px;
+  }
+
 
 @media(min-width:320px) and (max-width:323px){
     .intro-left-side h1{
@@ -105,11 +229,15 @@ a{
     width: 230px;
     margin-left: 20px;
    }
+   .h1-product{
+    font-size: 22.7px;
+}
+
 }
 
 @media(min-width:768px) and (max-width:991px){
     .intro-left-side h1{
-        font-size: 47px !important;
+        font-size: 43px !important;
     }
     .intro-left-side p{
     font-size: 24px;
@@ -122,12 +250,28 @@ a{
         
     }
     .services-section .services-text {
-        font-size: 30px !important;
+        font-size: 40px !important;
     }
     .melumat li{
         font-size: 22px;
     }
-   
+    .h1-product{
+        font-size: 53px;
+    }
+   .worker-left-side img{
+    width:100% ;
+    padding-top: 1px;
+   }
+   .worker-right-side h1{
+    font-size: 25px;
+   }
+   .worker-right-side img {
+    padding-top: 20px !important;
+   }
+   .worker-right-side h1{
+    padding-top: -10px !important;
+   }
+  
 }
 
 @media(min-width:992px){
@@ -147,5 +291,22 @@ a{
     .partnyor img{
         width: 200px;
     }
-   
+    .h1-product{
+        font-size: 54px;
+    }
+    .introduction p{
+        font-size: 22px;
+    }
+   .worker-left-side img{
+    width: 500px;
+   }
+   .worker-right-side {
+    padding-top: 70px;
+   }
+   .worker-right-side h1{
+    
+   }
+   .dark{
+    margin-top: -170px;
+   }
 }
